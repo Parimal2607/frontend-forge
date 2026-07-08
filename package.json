@@ -1,5 +1,5 @@
 {
-  "name": "@parimal/frontend-forge",
+  "name": "@prmvx/frontend-forge",
   "version": "0.1.0",
   "description": "A modern CLI to scaffold production-ready frontend architectures and starter modules for existing Next.js projects.",
   "keywords": [

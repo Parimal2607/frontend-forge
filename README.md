@@ -38,13 +38,13 @@ Instead of creating another starter project, Frontend Forge upgrades your existi
 ### Run directly
 
 ```bash
-npx @parimal/frontend-forge init
+npx @prmvx/frontend-forge init
 ```
 
 or install globally
 
 ```bash
-npm install -g @parimal/frontend-forge
+npm install -g @prmvx/frontend-forge
 ```
 
 then

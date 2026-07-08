@@ -41,7 +41,7 @@ export async function copyTemplateDir(
   relativePath: string,
   options: CopyOptions
 ): Promise<CopyStats> {
-  const templatePath = path.resolve(__dirname, "../templates", relativePath);
+  const templatePath = path.resolve(__dirname, "templates", relativePath);
   const targetPath = process.cwd();
   const files = await getAllFiles(templatePath);
   const createdDirs = new Set<string>();

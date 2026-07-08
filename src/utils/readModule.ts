@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 export async function readModule(moduleName: string): Promise<ModuleDefinition> {
   const modulePath = path.resolve(
     __dirname,
-    "../templates/modules",
+    "templates/modules",
     moduleName,
     "module.ts"
   );
