@@ -1,6 +1,6 @@
 {
   "name": "@prmvx/frontend-forge",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A modern CLI to scaffold production-ready frontend architectures and starter modules for existing Next.js projects.",
   "keywords": [
     "cli",
