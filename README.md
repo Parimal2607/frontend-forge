@@ -28,6 +28,8 @@ Instead of creating another starter project, Frontend Forge upgrades your existi
   * yarn
   * bun
 * 🛡️ Safe file generation (never overwrites existing files)
+* 🔍 Read-only project analysis to understand existing setup
+* 📋 Migration planning before applying changes
 * 🎯 Connected starter files that demonstrate the project structure
 * ⚡ Beautiful interactive CLI experience
 
@@ -48,6 +50,38 @@ npm install -g @prmvx/frontend-forge
 ```
 
 then
+
+```bash
+frontend-forge init
+```
+
+---
+
+# 🎮 Commands
+
+## analyze
+
+Scan the current project and print a detailed read-only analysis report.
+
+Detects framework, package manager, language, routing, Tailwind CSS, installed dependencies, providers, and state management.
+
+```bash
+frontend-forge analyze
+```
+
+## plan
+
+Generate a read-only migration plan before applying any changes.
+
+Select a target architecture and see which folders will be created, which already exist, recommended modules, and any warnings.
+
+```bash
+frontend-forge plan
+```
+
+## init
+
+Transform your project with a chosen architecture and modules.
 
 ```bash
 frontend-forge init
