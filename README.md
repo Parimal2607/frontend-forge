@@ -14,6 +14,7 @@ Instead of creating another starter project, Frontend Forge upgrades your existi
   * Standard
   * Enterprise
   * Feature Based
+  * Monorepo
 * 🧩 Optional modules
 
   * Core
@@ -155,6 +156,18 @@ Perfect for:
 * Large feature teams
 
 Everything is organized by feature with a shared layer.
+
+---
+
+## Monorepo
+
+Perfect for:
+
+* Multi-package projects
+* Shared component libraries
+* Teams managing multiple apps
+
+Extends the Standard structure with Turborepo workspace packages (`shared-ui`, `config-ts`, `config-eslint`) and root configuration files.
 
 ---
 

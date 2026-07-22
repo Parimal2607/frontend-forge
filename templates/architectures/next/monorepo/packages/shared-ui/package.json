@@ -1,0 +1,12 @@
+{
+  "name": "@project/shared-ui",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./utils/cn": "./src/utils/cn.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

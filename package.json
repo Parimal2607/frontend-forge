@@ -46,7 +46,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && tsup && npm run copy-templates",
-    "copy-templates": "cpy \"templates/**/*\" dist/templates",
+    "copy-templates": "cpy \"templates/**/*\" dist/templates --dot",
     "dev": "tsup --watch",
     "prepare": "npm run build"
   },

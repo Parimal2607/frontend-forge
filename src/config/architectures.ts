@@ -14,4 +14,9 @@ export const architectures = [
     label: "Feature Based",
     hint: "Organize code by feature",
   },
+  {
+    value: "monorepo",
+    label: "Monorepo",
+    hint: "Workspace-ready monorepo structure",
+  },
 ] as const;
